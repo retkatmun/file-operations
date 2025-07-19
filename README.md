@@ -37,7 +37,7 @@ file = open("sample.txt", "w")
 file_sample = file.write("over write")
 
 file = open("sample.txt", "a")
-file_sample = file.write("over write")
+file_sample = file.write("append")
 ```
 6. read()
 ```
