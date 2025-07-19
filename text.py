@@ -28,3 +28,7 @@ file_sample = file.write("orange favorite fruit")
 file.close()
 print(file_sample)
 '''
+
+import os
+
+os.rmdir("good.txt")
